@@ -1,0 +1,51 @@
+.video_wrapper h3{
+     
+    margin: 20px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+    color:#353535;
+
+}
+
+
+.videolist_item_wrapper{
+
+    display: flex;
+     
+    background: #fff;
+    border-bottom: 2px solid #d5d5d5;
+   
+
+}
+
+.videolist_item_wrapper h2{
+font-size: 13px;
+color: #525252
+
+
+}
+.left{
+
+    background-size: cover !important;
+
+}
+
+.left div{
+
+height: 90px;
+width: 90px;
+background-position: center center !important;
+background-repeat: no-repeat !important;
+background-size: cover !important;
+background: url('/images/play.png');
+background-size: 40px !important;
+
+
+
+}
+
+.right{
+    flex-grow: 1
+    
+}
